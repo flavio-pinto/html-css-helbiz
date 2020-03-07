@@ -42,6 +42,10 @@ body {
   width: 50%;
 }
 
+.w-49 {
+  width: 49%;
+}
+
 .w-70 {
   width: 70%;
 }
@@ -277,7 +281,32 @@ body {
 .app-and-find-us-left {
   height: 100%;
   background: url('../img/helbiz-app.png'), linear-gradient(#41566a,#252f38);
-  background-position: 50% 100%;
+  background-position: 50% 480%;
   background-repeat: no-repeat;
-  background-size: 500px, 100%;
+  background-size: 700px, 100%;
+  margin-right: 1%;
+}
+
+#app-and-find-us a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+
+#app-and-find-us .box a:last-of-type {
+  padding-left: 30px;
+}
+
+#app-and-find-us a::after {
+  content: '\003e';
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.app-and-find-us-right {
+  height: 100%;
+  background-image: url('../img/cities.jpg');
+  background-size: cover;
+  background-position: cover;
+  margin-left: 1%;
 }
