@@ -59,9 +59,6 @@ body {
 
 
 /* HEADER */
-.main-header {
-  background: lightblue;
-}
 
 .navbar {
   width: 1070px;
@@ -202,4 +199,85 @@ body {
   left: 50%;
   transform: translateX(-50%);
   width: 380px;
+  margin-bottom: 40px;
+}
+
+/* SMART MOBILITY */
+
+#smart-mobility {
+  height: 550px;
+  background-image: url('../img/scooter-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 30px;
+}
+
+#smart-mobility .smart-mobility-dx {
+  float: right;
+  color: white;
+  height: 100%;
+  position: relative;
+  text-align: center;
+}
+
+#smart-mobility h2 {
+  font-size: 48px;
+  font-weight: lighter;
+  padding-bottom: 20px;
+}
+
+#smart-mobility .box p,
+#smart-mobility .box a {
+  font-size: 21px;
+  font-weight: lighter;
+}
+
+#smart-mobility .box p {
+  padding-bottom: 20px;
+}
+
+#smart-mobility .box a {
+  color: white;
+  text-decoration: none;
+}
+
+#smart-mobility .box a::after {
+  content: '\003e';
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/* APP AND FIND US */
+#app-and-find-us {
+  height: 500px;
+  color: white;
+  text-align: center;
+}
+
+#app-and-find-us .box {
+  padding-top: 30px;
+}
+
+#app-and-find-us h3 {
+  font-size: 30px;
+}
+
+#app-and-find-us p,
+#app-and-find-us a {
+  font-size: 20px;
+}
+
+#app-and-find-us h3,
+#app-and-find-us p,
+#app-and-find-us a {
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+.app-and-find-us-left {
+  height: 100%;
+  background: url('../img/helbiz-app.png'), linear-gradient(#41566a,#252f38);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 500px, 100%;
 }
